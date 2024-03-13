@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class PipeMovingScript : MonoBehaviour
 {
-    public float moveSpeed = 5;
-    public float deadZone = -40;
+    public float moveSpeed;
+    public float deadZone;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        moveSpeed = 20;
+        deadZone = -40;
     }
 
     // Update is called once per frame
